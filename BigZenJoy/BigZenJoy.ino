@@ -51,7 +51,7 @@ const uint8_t numReadings = 10; // Tamanho do filtro atenuador das entradas anal
 //Quanto maior o valor, mais estável fica a leitura. Quanto menor mais rápida é a resposta.
 uint16_t readings[NUM_AXES][numReadings]; // As leituras das entradas analógicas.
 uint8_t readIndex[NUM_AXES];              // Indices das leituras atuais.
-uint32_t total[NUM_AXES];                  // Soma todal das leituras armazenadas.
+uint32_t total[NUM_AXES];                  // Soma total das leituras armazenadas.
 
 /* Assinatura dos métodos usados */
 void setup(void);
