@@ -31,8 +31,8 @@
 */
 
 //Variável de compilação para depurar os resultados pela janela do Serial Monitor.
-#undef DEBUG //Depiração desabilitada.
-//#define DEBUG //Depiração habilitada.
+#undef DEBUG //Depuração desabilitada.
+//#define DEBUG //Depuração habilitada.
 
 #define NUM_BUTTONS  40   //Numero de botões que existem no controle. Não modificar.
 #define NUM_AXES  6       //Usa 6 eixos no arduino UNO e 8 no MEGA. Se estiver usando o UNO, não altere esse valor.
